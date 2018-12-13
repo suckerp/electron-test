@@ -1,0 +1,26 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && electron ./dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suckerp/electron-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suckerp/electron-test/issues"
+  },
+  "homepage": "https://github.com/suckerp/electron-test#readme",
+  "devDependencies": {
+    "@types/electron": "^1.6.10",
+    "electron": "3.0.11"
+  }
+}
